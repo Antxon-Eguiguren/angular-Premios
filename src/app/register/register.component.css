@@ -1,0 +1,11 @@
+.btn[disabled] {
+    cursor: not-allowed;
+}
+
+.container {
+    padding: 50px 50px;
+}
+
+.error {
+    color: red;
+}

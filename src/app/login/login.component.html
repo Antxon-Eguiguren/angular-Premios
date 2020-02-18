@@ -1,0 +1,11 @@
+<div class="container">
+    <form novalidate #formulario="ngForm" (ngSubmit)="onSubmit(formulario.value)">
+        <label>Username</label>
+        <input type="text" class="form-control" name="username" ngModel>
+
+        <label>Password</label>
+        <input type="password" class="form-control" name="password" ngModel>
+
+        <input type="submit" class="btn btn-block btn-success" value="Enviar">
+    </form>
+</div>
